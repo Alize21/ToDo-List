@@ -46,8 +46,22 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  gap: 10px;
 }
-.task button {
-  margin-left: auto;
+.task p {
+  font-size: 20px;
+}
+
+button {
   padding: 2px;
+}
+.task .hapus-task {
+  margin-left: auto;
+}
+
+.completed {
+  background-color: lightgreen;
+}
+.completed p {
+  text-decoration: line-through;
 }
